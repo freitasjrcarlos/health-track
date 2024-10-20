@@ -1,0 +1,41 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.o
+
+# Test binary, build cache, and executable binary
+*.test
+*.prof
+*.cov
+
+# Go workspace folder
+go.work
+go.work.sum
+
+# Go build folder
+/bin/
+/build/
+
+# Vendor directory, only ignore if not using vendoring
+/vendor/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Environment variables file
+.env
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Docker specific files
+docker-compose.override.yml
